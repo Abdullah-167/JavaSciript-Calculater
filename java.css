@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+.button {
+  margin: 5px 0;
+}
+.button {
+  padding: 10px;
+  cursor: pointer;
+  width: 40px;
+
+  border-radius:5px ;
+}
+.button:hover:active { 
+    background-color:black;
+    color: white;
+     border: 1px solid black;
+}
+.button2 {
+  padding: 10px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.button2 {
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.input {
+  width: 170px;
+  border-radius: 10px;
+  border: none;
+}
+.buttons1 > input {
+  height: 40px;
+  font-size: 15px;
+  border: none;
+}
+
+.style {
+  background-color: rgb(0, 153, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 153, 255);
+}
+.style:hover:active {
+    background: rgb(0, 143, 255);
+    color: black;
+}
